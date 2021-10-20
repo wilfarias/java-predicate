@@ -34,7 +34,7 @@ public class Product {
 	}
 	
 	public boolean nonStaticMethodPredicate() {
-		return getPrice() >= 100.0;
+		return price >= 100.0;
 	}
 
 	@Override
