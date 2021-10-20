@@ -16,7 +16,7 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.removeIf(Product :: staticMethodPredicate); // method reference
+		list.removeIf(Product :: nonStaticMethodPredicate); // method reference
 		
 		list.forEach(System.out::println);
 		
